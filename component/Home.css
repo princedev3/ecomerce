@@ -1,0 +1,68 @@
+.card-element{
+    width: 80%;
+    margin-inline:  auto;
+    
+    border-radius: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+}
+.home-card{
+    background-color: rgba(0,0,0,0.4);
+    background: url("../pics/sunset-1373171__480.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    width: 280px;
+    height: 360px;
+    background-color: aliceblue;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid  rgb(129, 21, 116);
+    background: rgba(0,0,0,0.4);
+}
+.card img{
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    height: 230px;
+}
+.card h3{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    color:  rgba(129, 21, 116,0.9);
+    padding: .5rem; 
+}
+.card p{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    color:  rgba(129, 21, 116,0.7);
+}
+.card p span {
+    font-weight: 800;
+    color: rgb(129, 21, 116);
+    margin-right: 4px;
+}
+
+.card-btn {
+display: flex;
+justify-content: center;
+margin-top: .5rem;
+}
+.card-btn button{
+    width: 80%;
+    border: 1px solid  rgb(129, 21, 116);
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color:  rgb(129, 21, 116);
+}
